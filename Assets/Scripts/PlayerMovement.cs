@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -10,6 +12,17 @@ public class PlayerMovement : MonoBehaviour
     float moveSpeed = 5f;
     bool facingRight = true;
     // Start is called before the first frame update
+
+
+    [field: SerializeField]
+    public PlayerElement Elem1 {get; private set;}
+
+    [field: SerializeField]
+    public PlayerElement Elem2 {get; private set;} 
+
+    [field: SerializeField]
+    public PlayerElement Elem3 {get; private set;}
+
     void Start()
     {
         body = GetComponent<Rigidbody>();
