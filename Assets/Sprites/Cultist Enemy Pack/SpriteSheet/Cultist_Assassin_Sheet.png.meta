@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,27 +34,27 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 56
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -108,18 +108,1866 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 304
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff9f83bc8d5cfc43a67c7e5a8fd4227
+      internalID: 1901169603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 304
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4a5b43d9d08fd459c041155f866f6e
+      internalID: -962051678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 304
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f1e2b9010b1df64d9d3c66cb8d14fae
+      internalID: 172662380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 304
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1004fd68d8ebfc6409439d2fd07c23d6
+      internalID: 2138127709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 304
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3874e72bdb69ed74ea5a4486b8732f40
+      internalID: -491648825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 304
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d507b90b2a67e614eb06e84b20b6a1e7
+      internalID: -804537873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 304
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d90fc2bfa86e49148a6342b6fa06d086
+      internalID: -989747364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 304
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d957bbf870cdc43920d43f1d0a1080
+      internalID: -1474327973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 304
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8f7f86366f26341ba314957487892b
+      internalID: 185741880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 304
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5081c677373faf4c910e2f9d09fcf8a
+      internalID: -880964758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 266
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ade3918f3a51c4198aebcb1fbbea6f
+      internalID: -2103589741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 266
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162b18c398687774ebd732b0eaf0abc9
+      internalID: 797492364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 266
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a46b6064d0792148ba819dc31c42a6d
+      internalID: 1705934864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 266
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a438740f5aef12c4ba02a9c5fe7c4d2e
+      internalID: -1010922177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 266
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af76a32ed18e13047a0caccbc9a9ea3d
+      internalID: 1368154728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 266
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c41160217419534a94868755db6fcd6
+      internalID: 453053259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 266
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e92d86791d472904f92f8d3ebd2ec554
+      internalID: -2057596225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 266
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db7fdb330f79a94eb19e8a7e9af3134
+      internalID: -1322928207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 266
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d36e2624c7b49a4cba872caffcbc57f
+      internalID: 2046654764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 266
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f661bfe26551e42b93fdc878d13c3d
+      internalID: 1052537667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 228
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9f258ad2b6a5044b41d178333cb395
+      internalID: -58707658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 228
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1b47ad68ca7a5468f804536c061eb1
+      internalID: -1149386794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 228
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e0a82826f60454b8ed71158e1ebb79
+      internalID: -1373586674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 228
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f324b24bd97204c4e8cdf418717cc4a8
+      internalID: 1858287343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 228
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc95f8503b2c72b4097fb197a0e195cd
+      internalID: 355104038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 228
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb8c2bd013a210449955fa86bd0e184
+      internalID: 1035134381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 228
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d04b10d5f4c7c418b77816c898ab34
+      internalID: -1069443474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 228
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ae51c75c967fd4e8d4a7d2af44d961
+      internalID: 2127102388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 228
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038a7a7e6a0aa8b4687a8ad155b7c368
+      internalID: 1285548333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 228
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c19c620697eefd44b6e143768565b0c
+      internalID: -1794313620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 190
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a917826421cf18d44958a8253ad137e0
+      internalID: -234044697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 190
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f4ac216de9ed74e99eab63fed2daf2
+      internalID: -578628079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 190
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f9aab935854c348918d453818af246
+      internalID: 1292500719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 190
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3afa34c937105e48a7bc45d9fd14b26
+      internalID: 1757363547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 190
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3323449c941f29e488130f851210ae97
+      internalID: 1227620823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 190
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91fab7c7eb3d4d0498eeb70daa084974
+      internalID: -1147963116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 190
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3535123ec8e992429740c3ee002bc5b
+      internalID: -2007964408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 190
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688108aac4daa6d46befa4fd9c1ea320
+      internalID: 386381045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 190
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceec9a7225722b741b943d1acf0742a9
+      internalID: -947439801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 190
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beee18c353f7bf34bab3f9548128cb5e
+      internalID: 1990044029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 152
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c219e5722e43f824ba9dcae9fb841f54
+      internalID: 1685952310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 152
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e623e7467de2749b26cbb91936c2c0
+      internalID: 1997017630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 152
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55fa94aafb49c6547bccca97958b2401
+      internalID: 1273770868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 152
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0211f6a5cfd2ba348b2f604861ce10b5
+      internalID: -646056430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 152
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91d8f250d45a5c4598a76e88cc20926
+      internalID: -897057278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 152
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6afea6fdd4188fe44afd85e42d0ad91c
+      internalID: -1885427499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 152
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ff3a88967758043903977a87a0d84a
+      internalID: -1832061146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 152
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2753d98067af6ea4aa330e7ec9e9587f
+      internalID: -673863310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 152
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f84a48c4fde18154eb01c78e29b10c99
+      internalID: 379834424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 152
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f10ec07aae31d4284c653878f877c1
+      internalID: 1753774784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 114
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 823b57fdaea653541ae17493cc702999
+      internalID: -1196945069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 114
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0a54289ec1ece41939ae5623d3d54f
+      internalID: -667774367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 114
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ecb669010389a245b75c8c305dd1a78
+      internalID: -1776206355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 114
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a99bb5fe35f3a8a43b9cbd0638fdebf0
+      internalID: 871665701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 114
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa46d382787bc041b4a789a50e5ba96
+      internalID: 1715841005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 114
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 660341dd40894ba45a6ba08d7b25e268
+      internalID: -935136020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 114
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d7b73037413cea43a9dbb516acfae8d
+      internalID: 339680520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 114
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde86389e73f9ce4d9d6fd0c5e3b8afc
+      internalID: -1040353109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 114
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee89324005bf564cab3e3936f22e8b3
+      internalID: -1695139559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 114
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7c6b8740777d74dbd7eb6a8dbf44ba
+      internalID: -839033720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 76
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ae4e5766f2ca643a5611f5aad9a746
+      internalID: -1336978575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 76
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55403825551c5a14dac834063eeb9cdd
+      internalID: 1565592102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 76
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 694bbad68cfed664f92ab9d24dd79eca
+      internalID: -505086823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 76
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eccc375717ce556428b9c6302c89bc20
+      internalID: 18929863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 76
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48be6419505cfd4ebf7cca0a40f1383
+      internalID: -1560443481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 76
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1c5d8ee9aadd849aeab08050e70140
+      internalID: -2086377099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 76
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00f69ccae47b9e94995e3882d9b771c8
+      internalID: -519435586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 76
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb7b09964663494ca333182ea04286e
+      internalID: 531839214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 76
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe0128d446c35346b1c6a398298b13b
+      internalID: -350694735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 38
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498ce9a87a36c33409c53552399937fb
+      internalID: -796457736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 38
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d315aabfe9d8c48bded562bb3ae519
+      internalID: -637592204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 38
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5129ecd1df84a8842922541b2d4e7632
+      internalID: 1309662404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 38
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ae0727e95b19f449679064bc812bee
+      internalID: 156203916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 38
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d690a7bf85be1842b8a22c8ca9b2fa4
+      internalID: 648221262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_74
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 38
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef4db2e8ec7acb24aa94b5a2d5fbc9df
+      internalID: 1601335143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 38
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ff7de73506d9049a65734c07da4eca
+      internalID: -1497512689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 38
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d1c94a119c1fff409fbf227d0ce710b
+      internalID: 203826350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_77
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 38
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da797d3432e150042881980bdca0ecc6
+      internalID: -61570387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_78
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 38
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f6887ef3b6a444abbd77c9bb4c213c
+      internalID: -688825429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_79
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16fd431432b50f64896493dfc934366b
+      internalID: 6315274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_80
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 0
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c1f821ab300d2e4682b7afb7f3f8dfd
+      internalID: 1541201299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_81
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 0
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af8b0c60d667f9468c4a8f527588cc0
+      internalID: -2031032110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_82
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 0
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d264a2fd86c23054499c4187787ac20a
+      internalID: 1627496162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_Assassin_Sheet_83
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 0
+        width: 53
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def546a5cbefa79448c28b3d79e5afb0
+      internalID: -1776370650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 0bf538193e36bcd44bffacb3064682db
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cultist_Assassin_Sheet_0: 1901169603
+      Cultist_Assassin_Sheet_1: -962051678
+      Cultist_Assassin_Sheet_10: -2103589741
+      Cultist_Assassin_Sheet_11: 797492364
+      Cultist_Assassin_Sheet_12: 1705934864
+      Cultist_Assassin_Sheet_13: -1010922177
+      Cultist_Assassin_Sheet_14: 1368154728
+      Cultist_Assassin_Sheet_15: 453053259
+      Cultist_Assassin_Sheet_16: -2057596225
+      Cultist_Assassin_Sheet_17: -1322928207
+      Cultist_Assassin_Sheet_18: 2046654764
+      Cultist_Assassin_Sheet_19: 1052537667
+      Cultist_Assassin_Sheet_2: 172662380
+      Cultist_Assassin_Sheet_20: -58707658
+      Cultist_Assassin_Sheet_21: -1149386794
+      Cultist_Assassin_Sheet_22: -1373586674
+      Cultist_Assassin_Sheet_23: 1858287343
+      Cultist_Assassin_Sheet_24: 355104038
+      Cultist_Assassin_Sheet_25: 1035134381
+      Cultist_Assassin_Sheet_26: -1069443474
+      Cultist_Assassin_Sheet_27: 2127102388
+      Cultist_Assassin_Sheet_28: 1285548333
+      Cultist_Assassin_Sheet_29: -1794313620
+      Cultist_Assassin_Sheet_3: 2138127709
+      Cultist_Assassin_Sheet_30: -234044697
+      Cultist_Assassin_Sheet_31: -578628079
+      Cultist_Assassin_Sheet_32: 1292500719
+      Cultist_Assassin_Sheet_33: 1757363547
+      Cultist_Assassin_Sheet_34: 1227620823
+      Cultist_Assassin_Sheet_35: -1147963116
+      Cultist_Assassin_Sheet_36: -2007964408
+      Cultist_Assassin_Sheet_37: 386381045
+      Cultist_Assassin_Sheet_38: -947439801
+      Cultist_Assassin_Sheet_39: 1990044029
+      Cultist_Assassin_Sheet_4: -491648825
+      Cultist_Assassin_Sheet_40: 1685952310
+      Cultist_Assassin_Sheet_41: 1997017630
+      Cultist_Assassin_Sheet_42: 1273770868
+      Cultist_Assassin_Sheet_43: -646056430
+      Cultist_Assassin_Sheet_44: -897057278
+      Cultist_Assassin_Sheet_45: -1885427499
+      Cultist_Assassin_Sheet_46: -1832061146
+      Cultist_Assassin_Sheet_47: -673863310
+      Cultist_Assassin_Sheet_48: 379834424
+      Cultist_Assassin_Sheet_49: 1753774784
+      Cultist_Assassin_Sheet_5: -804537873
+      Cultist_Assassin_Sheet_50: -1196945069
+      Cultist_Assassin_Sheet_51: -667774367
+      Cultist_Assassin_Sheet_52: -1776206355
+      Cultist_Assassin_Sheet_53: 871665701
+      Cultist_Assassin_Sheet_54: 1715841005
+      Cultist_Assassin_Sheet_55: -935136020
+      Cultist_Assassin_Sheet_56: 339680520
+      Cultist_Assassin_Sheet_57: -1040353109
+      Cultist_Assassin_Sheet_58: -1695139559
+      Cultist_Assassin_Sheet_59: -839033720
+      Cultist_Assassin_Sheet_6: -989747364
+      Cultist_Assassin_Sheet_60: -1336978575
+      Cultist_Assassin_Sheet_61: 1565592102
+      Cultist_Assassin_Sheet_62: -505086823
+      Cultist_Assassin_Sheet_63: 18929863
+      Cultist_Assassin_Sheet_64: -1560443481
+      Cultist_Assassin_Sheet_65: -2086377099
+      Cultist_Assassin_Sheet_66: -519435586
+      Cultist_Assassin_Sheet_67: 531839214
+      Cultist_Assassin_Sheet_68: -350694735
+      Cultist_Assassin_Sheet_69: -796457736
+      Cultist_Assassin_Sheet_7: -1474327973
+      Cultist_Assassin_Sheet_70: -637592204
+      Cultist_Assassin_Sheet_71: 1309662404
+      Cultist_Assassin_Sheet_72: 156203916
+      Cultist_Assassin_Sheet_73: 648221262
+      Cultist_Assassin_Sheet_74: 1601335143
+      Cultist_Assassin_Sheet_75: -1497512689
+      Cultist_Assassin_Sheet_76: 203826350
+      Cultist_Assassin_Sheet_77: -61570387
+      Cultist_Assassin_Sheet_78: -688825429
+      Cultist_Assassin_Sheet_79: 6315274
+      Cultist_Assassin_Sheet_8: 185741880
+      Cultist_Assassin_Sheet_80: 1541201299
+      Cultist_Assassin_Sheet_81: -2031032110
+      Cultist_Assassin_Sheet_82: 1627496162
+      Cultist_Assassin_Sheet_83: -1776370650
+      Cultist_Assassin_Sheet_9: -880964758
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
