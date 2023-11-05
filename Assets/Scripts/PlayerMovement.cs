@@ -34,7 +34,7 @@ public class PlayerMovement : MonoBehaviour
         {
             if (!facingRight)
             {
-                gameObject.transform.localScale = new Vector2(1, 1);
+                gameObject.transform.localScale = new Vector3(1, 1, 1);
                 facingRight = true;
             }
             
@@ -42,11 +42,13 @@ public class PlayerMovement : MonoBehaviour
         {
             if (facingRight)
             {
-                gameObject.transform.localScale = new Vector2(-1, 1);
+                gameObject.transform.localScale = new Vector3(-1, 1, 1);
                 facingRight = false;
             }
             
         }
+        
+        //gameObject.transform.localScale = new Vector3((Mathf.Abs(body.velocity.x)/body.velocity.x), 1, 1);
     }
 
 
