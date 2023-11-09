@@ -8,11 +8,16 @@ public class EnemyMovement : MonoBehaviour
     Rigidbody body;
     GameObject player;
     Rigidbody playerBody;
+
+    Animator animator;
+
+    bool facingRight = true;
     
     // Start is called before the first frame update
     void Awake()
     {
         body = GetComponent<Rigidbody>();
+        animator = GetComponent<Animator>();
 
         player = GameObject.FindWithTag("Player");
         
@@ -22,6 +27,8 @@ public class EnemyMovement : MonoBehaviour
     void Update()
     {
         FollowPlayer();
+        IsRunning();
+        HandleFlipScale();
     }
 
     void FollowPlayer()
@@ -32,8 +39,39 @@ public class EnemyMovement : MonoBehaviour
             Vector3 direction = (player.transform.position - transform.position).normalized;
             if (distance > 1f)
             {
-                float speed = moveSpeed * Time.deltaTime;
-                body.velocity = new Vector3(direction.x, direction.y, direction.z) * speed;
+                body.velocity = new Vector3(direction.x, direction.y, direction.z) * moveSpeed;
+            }
+            
+        }
+    }
+
+    void IsRunning()
+    {
+        if (Mathf.Abs(body.velocity.x) > 1 || Mathf.Abs(body.velocity.z) > 1)
+        {
+            animator.SetBool("isRunning", true);
+        } else
+        {
+            animator.SetBool("isRunning", false);
+        }
+    }
+
+    void HandleFlipScale()
+    {
+        if (body.velocity.x < 0)
+        {
+            if (!facingRight)
+            {
+                gameObject.transform.localScale = new Vector3(1, 1, 1);
+                facingRight = true;
+            }
+            
+        } else if (body.velocity.x > 0)
+        {
+            if (facingRight)
+            {
+                gameObject.transform.localScale = new Vector3(-1, 1, 1);
+                facingRight = false;
             }
             
         }
