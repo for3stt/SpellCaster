@@ -5,6 +5,9 @@ using UnityEngine;
 public class EnemyMovement : MonoBehaviour
 {
     [SerializeField] float moveSpeed = 5f;
+    [SerializeField] int detectRange = 5; // range in which enemy can detect the player
+    bool hasDetected = false;
+    float distanceToPlayer = 50f;
     Rigidbody body;
     GameObject player;
     Rigidbody playerBody;
@@ -26,6 +29,14 @@ public class EnemyMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (player)
+        {
+            distanceToPlayer = Vector3.Distance(transform.position, player.transform.position);
+        }
+        if (distanceToPlayer < detectRange)
+        {
+            hasDetected = true;
+        }
         FollowPlayer();
         IsRunning();
         HandleFlipScale();
@@ -33,11 +44,10 @@ public class EnemyMovement : MonoBehaviour
 
     void FollowPlayer()
     {
-        if (player)
+        if (player && hasDetected)
         {
-            float distance = Vector3.Distance(transform.position, player.transform.position);
             Vector3 direction = (player.transform.position - transform.position).normalized;
-            if (distance > 1f)
+            if (distanceToPlayer > 1f)
             {
                 body.velocity = new Vector3(direction.x, direction.y, direction.z) * moveSpeed;
             }
