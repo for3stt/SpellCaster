@@ -57,7 +57,7 @@ public class EnemyMovement : MonoBehaviour
 
     void IsRunning()
     {
-        if (Mathf.Abs(body.velocity.x) > 1 || Mathf.Abs(body.velocity.z) > 1)
+        if (Mathf.Abs(body.velocity.x) > 0.2 || Mathf.Abs(body.velocity.z) > 0.2)
         {
             animator.SetBool("isRunning", true);
         } else

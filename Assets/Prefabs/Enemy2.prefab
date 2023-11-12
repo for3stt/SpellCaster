@@ -8,6 +8,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1843754638700973270, guid: dee4fe02be9fb7b38aeaf0c36373b286, type: 3}
+      propertyPath: moveSpeed
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1843754638700973270, guid: dee4fe02be9fb7b38aeaf0c36373b286, type: 3}
+      propertyPath: detectRange
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1876118354393744053, guid: dee4fe02be9fb7b38aeaf0c36373b286, type: 3}
       propertyPath: m_Height
       value: 1.4027262
