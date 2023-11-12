@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1843754638700973270, guid: dee4fe02be9fb7b38aeaf0c36373b286, type: 3}
       propertyPath: moveSpeed
-      value: 1.5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1843754638700973270, guid: dee4fe02be9fb7b38aeaf0c36373b286, type: 3}
       propertyPath: detectRange
