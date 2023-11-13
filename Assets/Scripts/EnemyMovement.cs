@@ -5,7 +5,8 @@ using UnityEngine;
 public class EnemyMovement : MonoBehaviour
 {
     [SerializeField] float moveSpeed = 5f;
-    [SerializeField] int detectRange = 5; // range in which enemy can detect the player
+    [SerializeField] float detectRange = 5; // range in which enemy can detect the player
+    [SerializeField] float attackRange = 3; // range in which enemy will attack the player
     bool hasDetected = false;
     float distanceToPlayer = 50f;
     Rigidbody body;
@@ -23,6 +24,11 @@ public class EnemyMovement : MonoBehaviour
         animator = GetComponent<Animator>();
 
         player = GameObject.FindWithTag("Player");
+        
+    }
+
+    void Start()
+    {
         
     }
 
@@ -84,6 +90,14 @@ public class EnemyMovement : MonoBehaviour
                 facingRight = false;
             }
             
+        }
+    }
+
+    void TriggerAttack()
+    {
+        if (distanceToPlayer <= attackRange)
+        {
+            //
         }
     }
 }
