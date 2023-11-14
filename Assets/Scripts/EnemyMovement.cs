@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
+
     [SerializeField] float moveSpeed = 5f;
     [SerializeField] float detectRange = 5; // range in which enemy can detect the player
     [SerializeField] float attackRange = 3; // range in which enemy will attack the player
     bool hasDetected = false;
     float distanceToPlayer = 50f;
+    //bool isAttacking = false;
     Rigidbody body;
     GameObject player;
     Rigidbody playerBody;
@@ -17,7 +19,6 @@ public class EnemyMovement : MonoBehaviour
 
     bool facingRight = true;
     
-    // Start is called before the first frame update
     void Awake()
     {
         body = GetComponent<Rigidbody>();
@@ -31,8 +32,7 @@ public class EnemyMovement : MonoBehaviour
     {
         
     }
-
-    // Update is called once per frame
+    
     void Update()
     {
         if (player)
@@ -46,6 +46,7 @@ public class EnemyMovement : MonoBehaviour
         FollowPlayer();
         IsRunning();
         HandleFlipScale();
+        TriggerAttack();
     }
 
     void FollowPlayer()
@@ -53,7 +54,7 @@ public class EnemyMovement : MonoBehaviour
         if (player && hasDetected)
         {
             Vector3 direction = (player.transform.position - transform.position).normalized;
-            if (distanceToPlayer > 1f)
+            if ((distanceToPlayer > attackRange))
             {
                 body.velocity = new Vector3(direction.x, direction.y, direction.z) * moveSpeed;
             }
@@ -95,9 +96,14 @@ public class EnemyMovement : MonoBehaviour
 
     void TriggerAttack()
     {
-        if (distanceToPlayer <= attackRange)
+        if ((distanceToPlayer <= attackRange))
         {
-            //
+            animator.SetTrigger("attack");
         }
+    }
+
+    void IsAttacking() // for animation event
+    {
+        //
     }
 }
