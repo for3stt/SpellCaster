@@ -10,7 +10,7 @@ public class EnemyMovement : MonoBehaviour
     [SerializeField] float attackRange = 3; // range in which enemy will attack the player
     bool hasDetected = false;
     float distanceToPlayer = 50f;
-    //bool isAttacking = false;
+    bool isAttacking = false;
     Rigidbody body;
     GameObject player;
     Rigidbody playerBody;
@@ -54,7 +54,7 @@ public class EnemyMovement : MonoBehaviour
         if (player && hasDetected)
         {
             Vector3 direction = (player.transform.position - transform.position).normalized;
-            if ((distanceToPlayer > attackRange))
+            if ((distanceToPlayer > attackRange) && !isAttacking)
             {
                 body.velocity = new Vector3(direction.x, direction.y, direction.z) * moveSpeed;
             }
@@ -75,35 +75,35 @@ public class EnemyMovement : MonoBehaviour
 
     void HandleFlipScale()
     {
-        if (body.velocity.x < 0)
+        if (player.transform.position.x < transform.position.x)
         {
             if (!facingRight)
             {
                 gameObject.transform.localScale = new Vector3(1, 1, 1);
                 facingRight = true;
             }
-            
-        } else if (body.velocity.x > 0)
+        } else 
         {
             if (facingRight)
             {
                 gameObject.transform.localScale = new Vector3(-1, 1, 1);
                 facingRight = false;
             }
-            
         }
     }
 
     void TriggerAttack()
     {
-        if ((distanceToPlayer <= attackRange))
+        if ((distanceToPlayer <= attackRange) && !isAttacking)
         {
             animator.SetTrigger("attack");
+            Debug.Log("attack animation triggered");
+            isAttacking = true;
         }
     }
 
-    void IsAttacking() // for animation event
+    void IsNotAttacking() // for animation event
     {
-        //
+        isAttacking = false;
     }
 }

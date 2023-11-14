@@ -1,0 +1,13 @@
+HOW TO ADD AN ENEMY TYPE:
+
+* Create a prefab variant from EnemyMain prefab
+* Add a sprite to the SpriteRenderer component of the prefab variant
+* Adjust the CapsuleCollider
+* Adjust moveSpeed, detectSpeed and attackRange from the prefab variant's EnemyMovement script component
+* Duplicate an existing enemy's AnimatorController and rename it
+* Replace the Enemy_Idle, Enemy_Run and Enemy_Attack animations with new ones (Do not delete them. Instead rename them and change animation in the Motion component)
+* Create the following events inside the Enemy_Attack animation:
+	- ActivateHitbox
+	- DeactivateHitbox
+	- IsNotAttacking (at the end of the animation)
+* Adjust the child Hitbox
