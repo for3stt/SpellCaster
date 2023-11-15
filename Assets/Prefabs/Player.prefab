@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 2959043314522666150}
   - component: {fileID: 3649898168222323031}
   - component: {fileID: 3219497255079001261}
+  - component: {fileID: 1161279565420138969}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -221,6 +222,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82096fa60cf534945b9621ec99b5dac3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1161279565420138969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7121811300259112012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abde615f74535448eaf3bc510f50f54b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &3905766884200299492
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -272,6 +285,10 @@ PrefabInstance:
     - target: {fileID: 4557045143998428749, guid: 1ad597682ccd7ae35be41fd2f59e9e99, type: 3}
       propertyPath: m_Name
       value: ElemLogi
+      objectReference: {fileID: 0}
+    - target: {fileID: 8760307837466721718, guid: 1ad597682ccd7ae35be41fd2f59e9e99, type: 3}
+      propertyPath: _elementType
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -345,6 +362,10 @@ PrefabInstance:
     - target: {fileID: 4557045143998428749, guid: 1ad597682ccd7ae35be41fd2f59e9e99, type: 3}
       propertyPath: m_Name
       value: ElemKari
+      objectReference: {fileID: 0}
+    - target: {fileID: 8760307837466721718, guid: 1ad597682ccd7ae35be41fd2f59e9e99, type: 3}
+      propertyPath: _elementType
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8760307837466721718, guid: 1ad597682ccd7ae35be41fd2f59e9e99, type: 3}
       propertyPath: <ElementType>k__BackingField
@@ -422,6 +443,10 @@ PrefabInstance:
     - target: {fileID: 4557045143998428749, guid: 1ad597682ccd7ae35be41fd2f59e9e99, type: 3}
       propertyPath: m_Name
       value: ElemHler
+      objectReference: {fileID: 0}
+    - target: {fileID: 8760307837466721718, guid: 1ad597682ccd7ae35be41fd2f59e9e99, type: 3}
+      propertyPath: _elementType
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8760307837466721718, guid: 1ad597682ccd7ae35be41fd2f59e9e99, type: 3}
       propertyPath: <ElementType>k__BackingField
