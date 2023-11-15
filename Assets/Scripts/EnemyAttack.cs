@@ -7,6 +7,9 @@ public class EnemyAttack : MonoBehaviour
 {
     //[Range(1, 3)]
     //[SerializeField] int enemyType = 1;
+    [Header("If applicable")]
+    [SerializeField] float dashSpeed = 20f;
+    [SerializeField] float dashTime = 0.25f;
 
     Rigidbody body;
     //Animator animator;
@@ -34,5 +37,23 @@ public class EnemyAttack : MonoBehaviour
     void Whoop() //function to test animation event
     {
         Debug.Log("WHOOP");
+    }
+
+    void LeapToPlayer()
+    {
+        StartCoroutine(Dash());
+    }
+
+    IEnumerator Dash()
+    {
+        float startTime = Time.time;
+
+        while (Time.time < startTime + dashTime)
+        {
+            Vector3 direction = (player.transform.position - transform.position).normalized;
+            body.velocity = new Vector3(direction.x, direction.y, direction.z) * dashSpeed;
+
+            yield return null;
+        }
     }
 }
