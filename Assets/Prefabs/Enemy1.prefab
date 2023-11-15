@@ -14,7 +14,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1843754638700973270, guid: dee4fe02be9fb7b38aeaf0c36373b286, type: 3}
       propertyPath: attackRange
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2947174617839141840, guid: dee4fe02be9fb7b38aeaf0c36373b286, type: 3}
       propertyPath: m_Name
@@ -72,9 +72,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5704950744741185021, guid: dee4fe02be9fb7b38aeaf0c36373b286, type: 3}
-      propertyPath: m_IsActive
-      value: 0
+    - target: {fileID: 4157825418763923972, guid: dee4fe02be9fb7b38aeaf0c36373b286, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.4042
+      objectReference: {fileID: 0}
+    - target: {fileID: 4157825418763923972, guid: dee4fe02be9fb7b38aeaf0c36373b286, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.2908713
+      objectReference: {fileID: 0}
+    - target: {fileID: 4157825418763923972, guid: dee4fe02be9fb7b38aeaf0c36373b286, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.7979
+      objectReference: {fileID: 0}
+    - target: {fileID: 4157825418763923972, guid: dee4fe02be9fb7b38aeaf0c36373b286, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0003
+      objectReference: {fileID: 0}
+    - target: {fileID: 7649756335590621281, guid: dee4fe02be9fb7b38aeaf0c36373b286, type: 3}
+      propertyPath: dashTime
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7649756335590621281, guid: dee4fe02be9fb7b38aeaf0c36373b286, type: 3}
+      propertyPath: dashSpeed
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

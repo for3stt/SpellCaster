@@ -75,19 +75,22 @@ public class EnemyMovement : MonoBehaviour
 
     void HandleFlipScale()
     {
-        if (player.transform.position.x < transform.position.x)
+        if (!isAttacking)
         {
-            if (!facingRight)
+            if (player.transform.position.x < transform.position.x)
             {
-                gameObject.transform.localScale = new Vector3(1, 1, 1);
-                facingRight = true;
-            }
-        } else 
-        {
-            if (facingRight)
+                if (!facingRight)
+                {
+                    gameObject.transform.localScale = new Vector3(1, 1, 1);
+                    facingRight = true;
+                }
+            } else 
             {
-                gameObject.transform.localScale = new Vector3(-1, 1, 1);
-                facingRight = false;
+                if (facingRight)
+                {
+                    gameObject.transform.localScale = new Vector3(-1, 1, 1);
+                    facingRight = false;
+                }
             }
         }
     }

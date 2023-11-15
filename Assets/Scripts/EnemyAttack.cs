@@ -46,11 +46,12 @@ public class EnemyAttack : MonoBehaviour
 
     IEnumerator Dash()
     {
+        Vector3 direction = (player.transform.position - transform.position).normalized;
+        
         float startTime = Time.time;
 
         while (Time.time < startTime + dashTime)
         {
-            Vector3 direction = (player.transform.position - transform.position).normalized;
             body.velocity = new Vector3(direction.x, direction.y, direction.z) * dashSpeed;
 
             yield return null;
