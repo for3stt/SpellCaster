@@ -1,37 +1,65 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.Experimental.GraphView;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
     Rigidbody body;
+    GameObject pointer;
+    GameObject mouseCast;
+    [SerializeField] LayerMask rayCastLayer;
+    [SerializeField] Camera cam;
     Vector2 moveInput;
     float moveSpeed = 5f;
     bool facingRight = true;
-    // Start is called before the first frame update
+    Vector2 mousePos;
 
 
-    [field: SerializeField]
+    /*[field: SerializeField]
     public PlayerElement Elem1 {get; private set;}
 
     [field: SerializeField]
     public PlayerElement Elem2 {get; private set;} 
 
     [field: SerializeField]
-    public PlayerElement Elem3 {get; private set;}
+    public PlayerElement Elem3 {get; private set;}*/
 
     void Start()
     {
         body = GetComponent<Rigidbody>();
+        pointer = transform.GetChild(0).gameObject;
+        mouseCast = transform.GetChild(1).gameObject;
     }
 
     // Update is called once per frame
     void Update()
     {
         Run();
+
+        Aim();
+    }
+
+    void Aim()
+    {
+        /*mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
+        Vector2 bodyPosV2 = new Vector2(body.position.x, body.position.z);
+        Vector2 lookDir = mousePos - bodyPosV2;
+        float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
+        pointer.GetComponent<Rigidbody>().rotation = angle;*/
+
+        Ray ray = cam.ScreenPointToRay(Input.mousePosition);
+        if (Physics.Raycast(ray, out RaycastHit raycastHit, rayCastLayer))
+        {
+            //Vector2 bodyPosV2 = new Vector2(body.position.x, body.position.z);
+            Vector2 lookDir = raycastHit.point - body.position;
+            //float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
+            //pointer.GetComponent<Rigidbody>().rotation = Quaternion.LookRotation(lookDir, new Vector3(0, 0, 1));
+            mouseCast.transform.position = raycastHit.point;
+            pointer.transform.LookAt(mouseCast.transform, new Vector3(0, 1, 0));
+        }
     }
 
     void OnMove(InputValue value)
