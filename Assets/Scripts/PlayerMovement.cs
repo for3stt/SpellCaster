@@ -10,7 +10,9 @@ public class PlayerMovement : MonoBehaviour
     Rigidbody body;
     GameObject pointer;
     GameObject mouseCast;
-    [SerializeField] LayerMask rayCastLayer;
+    //[SerializeField] LayerMask rayCastLayer;
+    int layerNumber = 7;
+    int rayCastLayer;
     [SerializeField] Camera cam;
     Vector2 moveInput;
     float moveSpeed = 5f;
@@ -29,6 +31,8 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
+        rayCastLayer = 1 << layerNumber;
+
         body = GetComponent<Rigidbody>();
         pointer = transform.GetChild(0).gameObject;
         mouseCast = transform.GetChild(1).gameObject;

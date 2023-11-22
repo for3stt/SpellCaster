@@ -16,9 +16,17 @@ PrefabInstance:
       propertyPath: attackRange
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 1876118354393744053, guid: dee4fe02be9fb7b38aeaf0c36373b286, type: 3}
+      propertyPath: m_IncludeLayers.m_Bits
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2947174617839141840, guid: dee4fe02be9fb7b38aeaf0c36373b286, type: 3}
       propertyPath: m_Name
       value: Enemy1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2947174617839141840, guid: dee4fe02be9fb7b38aeaf0c36373b286, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4068511162810590127, guid: dee4fe02be9fb7b38aeaf0c36373b286, type: 3}
       propertyPath: m_Sprite
@@ -34,15 +42,15 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: c974fd4c4bd20b4449d78eeaca533272, type: 2}
     - target: {fileID: 4151792685474577338, guid: dee4fe02be9fb7b38aeaf0c36373b286, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 8.903573
       objectReference: {fileID: 0}
     - target: {fileID: 4151792685474577338, guid: dee4fe02be9fb7b38aeaf0c36373b286, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4151792685474577338, guid: dee4fe02be9fb7b38aeaf0c36373b286, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 1.3391914
       objectReference: {fileID: 0}
     - target: {fileID: 4151792685474577338, guid: dee4fe02be9fb7b38aeaf0c36373b286, type: 3}
       propertyPath: m_LocalRotation.w
@@ -87,6 +95,10 @@ PrefabInstance:
     - target: {fileID: 4157825418763923972, guid: dee4fe02be9fb7b38aeaf0c36373b286, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0.0003
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704950744741185021, guid: dee4fe02be9fb7b38aeaf0c36373b286, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7649756335590621281, guid: dee4fe02be9fb7b38aeaf0c36373b286, type: 3}
       propertyPath: dashTime
