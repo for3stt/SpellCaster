@@ -10,9 +10,10 @@ public class PlayerMovement : MonoBehaviour
     Rigidbody body;
     GameObject pointer;
     GameObject mouseCast;
-    //[SerializeField] LayerMask rayCastLayer;
-    int layerNumber = 7;
-    int rayCastLayer;
+    [SerializeField] LayerMask rayCastLayer;
+    //int layerNumber = 7;
+    //int rayCastLayer;
+    //RaycastHit[] hits;
     [SerializeField] Camera cam;
     Vector2 moveInput;
     float moveSpeed = 5f;
@@ -31,7 +32,8 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
-        rayCastLayer = 1 << layerNumber;
+        //rayCastLayer = 1 << layerNumber;
+        //rayCastLayer = LayerMask.GetMask("RaycastLayer");
 
         body = GetComponent<Rigidbody>();
         pointer = transform.GetChild(0).gameObject;
@@ -50,12 +52,13 @@ public class PlayerMovement : MonoBehaviour
     {
 
         Ray ray = cam.ScreenPointToRay(Input.mousePosition);
-        if (Physics.Raycast(ray, out RaycastHit raycastHit, rayCastLayer))
+        if (Physics.Raycast(ray, out RaycastHit raycastHit, 100f, LayerMask.GetMask("RaycastLayer")))
         {
             mouseCast.transform.position = raycastHit.point;
             Vector3 lookDir = new Vector3(mouseCast.transform.position.x, pointer.transform.position.y, mouseCast.transform.position.z);
             pointer.transform.LookAt(lookDir, new Vector3(0, 1, 0));
         }
+        
     }
 
     void OnMove(InputValue value)
